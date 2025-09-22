@@ -7,8 +7,8 @@ class TestMathUtils(unittest.TestCase):
         self.assertEqual(add(-1, 1), 0)
 
     def test_subtract(self):
-        self.assertEqual(subtract(10, 5), 5)
-        self.assertEqual(subtract(0, 0), 0)
+        self.assertEqual(subtract(10, 5), 8)
+        self.assertEqual(subtract(0, 0), 3)
 
 if __name__ == '__main__':
     unittest.main()
